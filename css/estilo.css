@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ body{
+   background: url(../imagens/ImagemFundo.jpg) no-repeat;
+    background-size: 100%; 
+}
+
+header{
+    background-color: #56493b;
+    color: #d3b390;
+    padding-top: 20px;
+    height: 120px;
+    text-align: center;
+    
+}
+
+header h1{
+    font: 50px brasika;
+    color: #fcf6db;
+}
+
+header a{
+    color: #fcf6db;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    font: 18px atasanee;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+a:hover{
+    color: gold;
+    text-decoration-line: underline;
+}
+
+#textoCima{
+    display: inline-block;
+    background-color: #fcf6db;
+    text-align: center;
+    padding: 20px;
+    margin-left: 540px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px;
+    font: 18px brasika;
+    color: #56493b;
+}
+
+#primeiroTexto div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 80px;  
+    margin-left: 110px;
+    width: 300px;
+    height: 300px;
+    background-color: #56493b;
+}
+
+#primeiroTexto div h5{
+    text-align: center;
+    font: 18px Atsanee;
+    color: #fcf6db;
+    padding-top: 100px;
+}
+
+#encontros{
+    background-color: rgb(215, 205, 195);
+    height: 630px;
+}
+
+#encontros img{
+    width: 40%;
+    float: left;
+}
+
+#textoEncontros h1{
+    padding-top: 100px;
+    text-align: center;
+    font: 50px brasika ;
+    color: #56493b;
+}
+
+#textoEncontros h5{
+    float: right;
+    text-align: center; 
+    margin-right: 200px; 
+    padding-top: 100px;
+    font: 30px atsanee;
+    width: 550px;
+    color: #56493b;
+}
+
+#experiencia1{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px 20px 20px;
+    text-align: center;
+    float:left;
+    font: 30px atsanee;
+    color: #56493b;
+    padding-top: 100px;
+}
+
+#experiencia2{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px 20px 20px;
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+    font: 30px atsanee;
+    color: #56493b;
+    padding-top: 100px;
+}
+
+#experiencia3{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px 20px 20px;
+    text-align: center;
+    float: left;
+    clear: left;
+    margin-top: 70px;
+    font: 30px atsanee;
+    color: #56493b;
+    padding-top: 100px;
+}
+
+#experiencia4{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    border-radius: 20px 20px 20px;
+    text-align: center;
+    float: left;
+    margin-top: 70px;
+    margin-left: 30px;
+    font: 30px atsanee;
+    color: #56493b;
+    padding-top: 100px;
+}
+
+#experiencia{
+    padding-top: 100px;
+    padding-left: 250px;
+}
+
+#imagemExperiencia{
+    background: url(/imagens/imagem5.jpg) no-repeat;
+    height: 1000px;
+}
