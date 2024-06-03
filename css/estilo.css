@@ -3,21 +3,21 @@
     padding: 0px;
 }
 
- body{
-   background: url(../imagens/ImagemFundo.jpg) no-repeat;
-    background-size: 100%; 
+header{
+    background: url(/imagens/ImagemFundo.jpg) no-repeat;
+    background-size: cover;
 }
 
-header{
+#cabeçalho{
     background-color: #56493b;
     color: #d3b390;
-    padding-top: 20px;
-    height: 120px;
+    padding-top: 20px; 
     text-align: center;
-    
+    height: auto;
+    padding-bottom: 20px;
 }
 
-header h1{
+h1{
     font: 50px brasika;
     color: #fcf6db;
 }
@@ -25,15 +25,18 @@ header h1{
 header a{
     color: #fcf6db;
     text-decoration: none;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 90px;
     font: 18px atasanee;
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
 }
 
 nav ul li{
     display: inline-block;
-    padding: 50px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 a:hover{
@@ -97,7 +100,7 @@ a:hover{
     color: #56493b;
 }
 
-#experiencia1{
+#diferencial1{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -109,7 +112,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia2{
+#diferencial2{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -122,7 +125,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia3{
+#diferencial3{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -136,7 +139,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia4{
+#diferencial4{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -150,12 +153,30 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia{
+#caixaTextoDiferenciais{
     padding-top: 100px;
     padding-left: 250px;
 }
 
-#imagemExperiencia{
+#diferenciais h1{
+    text-align: center;
+    padding-top: 20px;
+    font: 50px brasika ;
+    color: #56493b;
+}
+
+#diferenciais{
     background: url(/imagens/imagem5.jpg) no-repeat;
-    height: 1000px;
+    height: 1100px;
+}
+
+#contato{
+    background-color: #d3b390;
+}
+
+#contato h1{
+    text-align: center;
+    padding-top: 20px;
+    font: 50px brasika ;
+    color: #56493b;
 }
