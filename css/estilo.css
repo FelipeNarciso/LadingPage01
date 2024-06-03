@@ -3,21 +3,16 @@
     padding: 0px;
 }
 
- body{
-   background: url(../imagens/ImagemFundo.jpg) no-repeat;
-    background-size: 100%; 
-}
-
-header{
+#cabeçalho{
     background-color: #56493b;
     color: #d3b390;
-    padding-top: 20px;
-    height: 120px;
+    padding-top: 20px; 
     text-align: center;
-    
+    height: auto;
+    padding-bottom: 20px;
 }
 
-header h1{
+#cabeçalho h1{
     font: 50px brasika;
     color: #fcf6db;
 }
@@ -25,15 +20,18 @@ header h1{
 header a{
     color: #fcf6db;
     text-decoration: none;
-    padding: 10px;
-    margin-right: 10px;
+    padding: 90px;
     font: 18px atasanee;
+}
+
+nav ul{
+    text-align: center;
+    padding-top: 20px;
 }
 
 nav ul li{
     display: inline-block;
-    padding: 50px;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 a:hover{
@@ -41,29 +39,40 @@ a:hover{
     text-decoration-line: underline;
 }
 
-#textoCima{
-    display: inline-block;
-    background-color: #fcf6db;
+#primeiroTexto{
+    background: url(/imagens/ImagemFundo.jpg) no-repeat;
+    background-size: cover;
     text-align: center;
-    padding: 20px;
-    margin-left: 540px;
-    margin-top: 50px;
-    border-radius: 20px 20px 20px;
-    font: 18px brasika;
-    color: #56493b;
 }
 
-#primeiroTexto div{
+#caixaTextoCima{
+    text-align: center;
+}
+
+#textoCima{
+    margin-top: 30px;
     display: inline-block;
-    vertical-align: top;
-    margin: 80px;  
-    margin-left: 110px;
+    background-color: #fcf6db;
+    border-radius: 20px 20px 20px;
+}
+
+#textoCima h3{
+    font: 26px brasika;
+    color: #56493b;
+    padding: 10px;
+}
+
+.textoBloco{ 
+    display: inline-block;
+    vertical-align: top;;
+    margin-top: 80px;
+    margin: 5%;  
     width: 300px;
     height: 300px;
     background-color: #56493b;
 }
 
-#primeiroTexto div h5{
+.textoBloco h5{
     text-align: center;
     font: 18px Atsanee;
     color: #fcf6db;
@@ -97,7 +106,7 @@ a:hover{
     color: #56493b;
 }
 
-#experiencia1{
+#diferencial1{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -109,7 +118,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia2{
+#diferencial2{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -122,7 +131,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia3{
+#diferencial3{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -136,7 +145,7 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia4{
+#diferencial4{
     background-color: white;
     height: 300px;
     width: 500px;
@@ -150,12 +159,30 @@ a:hover{
     padding-top: 100px;
 }
 
-#experiencia{
+#caixaTextoDiferenciais{
     padding-top: 100px;
     padding-left: 250px;
 }
 
-#imagemExperiencia{
+#diferenciais h1{
+    text-align: center;
+    padding-top: 20px;
+    font: 50px brasika ;
+    color: #56493b;
+}
+
+#diferenciais{
     background: url(/imagens/imagem5.jpg) no-repeat;
-    height: 1000px;
+    height: 1100px;
+}
+
+#contato{
+    background-color: #d3b390;
+}
+
+#contato h1{
+    text-align: center;
+    padding-top: 20px;
+    font: 50px brasika ;
+    color: #56493b;
 }
