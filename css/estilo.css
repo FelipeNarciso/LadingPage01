@@ -116,7 +116,7 @@ a:hover{
 
 #diferenciais{
     background: url(/imagens/imagem5.jpg) no-repeat;
-    height: 1100px;
+    background-size: cover;
 }
 
 #diferenciais h1{
@@ -127,61 +127,23 @@ a:hover{
 }
 
 #caixaTextoDiferenciais{
-    padding-top: 100px;
-    padding-left: 250px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-#diferencial1{
+.textoDiferenciais{
+    display: inline-block;
     background-color: white;
     height: 300px;
     width: 500px;
+    margin-top: 5%;
+    margin: 2%;
     border-radius: 20px 20px 20px;
-    text-align: center;
-    float:left;
+    text-align: center;  
     font: 30px atsanee;
     color: #56493b;
-    padding-top: 100px;
-}
-
-#diferencial2{
-    background-color: white;
-    height: 300px;
-    width: 500px;
-    border-radius: 20px 20px 20px;
-    text-align: center;
-    float: left;
-    margin-left: 30px;
-    font: 30px atsanee;
-    color: #56493b;
-    padding-top: 100px;
-}
-
-#diferencial3{
-    background-color: white;
-    height: 300px;
-    width: 500px;
-    border-radius: 20px 20px 20px;
-    text-align: center;
-    float: left;
-    clear: left;
-    margin-top: 70px;
-    font: 30px atsanee;
-    color: #56493b;
-    padding-top: 100px;
-}
-
-#diferencial4{
-    background-color: white;
-    height: 300px;
-    width: 500px;
-    border-radius: 20px 20px 20px;
-    text-align: center;
-    float: left;
-    margin-top: 70px;
-    margin-left: 30px;
-    font: 30px atsanee;
-    color: #56493b;
-    padding-top: 100px;
+    padding-top: 10%;
 }
 
 /* Section 04 */
@@ -190,9 +152,36 @@ a:hover{
     background-color: #d3b390;
 }
 
+#formulario{
+    text-align: center;
+}
+
 #contato h1{
     text-align: center;
     padding-top: 20px;
     font: 50px brasika ;
     color: #56493b;
+}
+
+#form{
+    font-size: 28px;
+    padding-top: 5%;
+    width: 50%;
+    padding-left: 25%;
+}
+
+#cadastro{
+    border: solid 3px #56493b;
+}
+
+#cadastro input{
+    margin: 2%;
+    height: 20px;
+}
+
+
+/* Footer */
+
+footer{
+    background-color: #56493b;
 }
