@@ -76,23 +76,26 @@
         <form id="form" method="post">
             <img src="https://media.tenor.com/YP5n6c23ji8AAAAi/enduromiramarjoaquin.gif" alt="error" srcset="">
             <fieldset id="cadastro">
-                Nome: <input type="text" name="txtNome" id="txtNome"> <br>
-                Email: <input type="text" name="txtEmail" id="txtEmail"> <br>
-                Telefone: <input type="number" name="txtTel" id="txtTel"> <br>
-                <button>Enviar</button>
+                Nome: <input type="text" name="txtNome" id="txtNome" placeholder="Seu nome completo" autocomplete="off"> <br>
+                Email: <input type="text" name="txtEmail" id="txtEmail" placeholder="seu@email.com.br" autocomplete="off"> <br>
+                Telefone: <input type="tel" name="txtTel" id="txtTel" placeholder="Telefone (com DDD)" maxlength="11" autocomplete="off"> <br>
+                <input id="btnCadastro" type="button" value="Enviar" onclick="contato()">
             </fieldset>
         </form>
-           <div>
-
-           </div>
         </section>
 
 
     <footer>
-       teste
-       teste
-       teste
-       teste
+        <div id="redesSociais">
+            Saiba Mais
+            <a href="https://www.whatsapp.com/?lang=pt_BR"><img src="/imagens/2018_social_media_popular_app_logo-whatsapp-512.webp" alt="" srcset=""></a>
+            <a href="https://www.instagram.com/"><img src="/imagens/instagram-logo2.png" alt="" srcset=""></a>
+        </div>
+
+        <div id="direitos">
+            &copy; 2024 Aventura em Duas Rodas - Todos os direitos reservados 
+        </div>
     </footer>
+    <script src="/js/interação.js"></script>
 </body>
 </html>

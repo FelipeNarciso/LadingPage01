@@ -154,10 +154,6 @@ a:hover{
     padding: 5%;
 }
 
-#formulario{
-    text-align: center;
-}
-
 #contato h1{
     text-align: center;
     font: 50px brasika ;
@@ -183,12 +179,16 @@ a:hover{
     width: 150px;
 }
 
-#cadastro button{
+
+input::-webkit-inner-spin-button{ 
+    appearance: none;
+}    
+
+#btnCadastro{
     width: 100px;
-    margin-left: 30%;
 }
 
-#cadastro button:hover{
+#btnCadastro:hover{
     background-color: rgb(63, 212, 63);
 }
 
@@ -198,19 +198,23 @@ a:hover{
     height: 20px;
 }
 
-#imagemContato{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-#textoImagemContato img{
-    width: 150px;
-    height: 100px;
-}
 /* Footer */
 
 footer{
-    background-color: #56493b;
-    color: #d3b390;
+    background-color:  rgb(215, 205, 195);
+    color: #56493b;
+}
+
+#direitos{
+    text-align: center;
+}
+
+#redesSociais img{
+    width: 30px;
+    height: 30px;
+}
+
+#redesSociais{
+    text-align: right;
+    padding-right: 10px;
 }
