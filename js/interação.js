@@ -15,4 +15,5 @@ function contato(){
         email.value = ''
         num.value = ''
     }
+   
 } 

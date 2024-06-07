@@ -261,3 +261,55 @@ footer{
     font: 50px brasika ;
     color: #56493b;
 }
+
+/* Depoimentos Page */
+
+#depoimentosClientes{
+    background-color: #d3b390;
+}
+
+#depoimentosClientes h1{
+    text-align: center;
+    font: 50px brasika ;
+    color: #56493b;
+}
+
+.depoimentos{
+    background-image: url(/imagens/fundoDepoimentos.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px black;
+    display: inline-block;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin-top: 5%;
+    margin: 2% auto;
+    border-radius: 20px 20px 20px;
+    text-align: center;  
+    font: 30px atsanee;
+    color: #56493b;
+    padding-top: 10%;
+}
+#caixaDepoimentos{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+    
+#caixaDepoimentos div{
+    margin: 2%;
+}
+
+.txtDepoimentos{
+    font: 22px brasika ;
+    color: #56493b;
+    padding-left: 30px;
+    width: 420px;
+    height: 150px;
+    text-align: justify;
+}
+
+.txtDepoimentos h3{
+   text-align: center;
+}
