@@ -10,7 +10,6 @@ function contato(){
         num.value = ''
         return
     }
-
     if(nome.value === ''){
         alert('Erro! Um ou mais campos não estão preenchidos')
     }else if(email.value === ''){
