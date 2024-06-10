@@ -39,6 +39,7 @@ nav ul li{
 a:hover{
     color: gold;
     text-decoration-line: underline;
+    text-underline-offset: 10px; 
 }
 
 /* Section 01 */
@@ -53,7 +54,19 @@ a:hover{
     text-align: center;
 }
 
+@keyframes animation-textoCima {
+    from{
+        right: 1000px;
+    } to{
+        right: 0;
+    }
+}
+
+
 #textoCima{
+    animation-name: animation-textoCima;
+    animation-duration: 2s;
+    position: relative;
     margin-top: 30px;
     display: inline-block;
     background-color: #fcf6db;
@@ -66,7 +79,18 @@ a:hover{
     padding: 10px;
 }
 
-.textoBloco{ 
+@keyframes animation-textoBloco {
+    from{
+        top: 1000px;
+    } to{
+        top: 0;
+    }
+}
+
+.textoBloco{
+    animation-name: animation-textoBloco;
+    animation-duration: 2s;
+    position: relative; 
     display: inline-block;
     vertical-align: top;;
     margin-top: 80px;
@@ -151,7 +175,6 @@ a:hover{
 
 #contato{
     background-color: #d3b390;
-    /* background-color:  rgb(215, 205, 195); */
     padding: 5%;
 }
 
@@ -229,10 +252,49 @@ footer{
     background-color: #d3b390;
 }
 
+@keyframes animation-EventosH1 {
+    from{
+       top: 1000px;
+    } to{
+      top: 0;
+    }
+} 
+
 #proximosEventos h1{
+    animation-name: animation-EventosH1;
+    animation-duration: 2s;
+    position: relative;
     text-align: center;
     font: 50px brasika ;
     color: #56493b;
+}
+
+@keyframes animation-eventosColuna01 {
+    from{
+       right: 1000px;
+    } to{
+      right: 0;
+    }
+} 
+
+#eventosColuna01{
+    position: relative;
+    animation-name: animation-eventosColuna01;
+    animation-duration: 3s;
+}
+
+@keyframes animation-eventosColuna02 {
+    from{
+       left: 1000px;
+    } to{
+      left: 0;
+    }
+} 
+
+#eventosColuna02{
+    position: relative;
+    animation-name: animation-eventosColuna02;
+    animation-duration: 3s;
 }
 
 .eventos{
@@ -268,13 +330,35 @@ footer{
     background-color: #d3b390;
 }
 
+@keyframes animation-depoimentosClientesH1 {
+    from{
+       left: 1000px;
+    } to{
+      left: 0;
+    }
+} 
+
 #depoimentosClientes h1{
+    position: relative;
+    animation-name: animation-depoimentosClientesH1;
+    animation-duration: 1s;
     text-align: center;
     font: 50px brasika ;
     color: #56493b;
 }
 
+@keyframes animation-depoimentos {
+    from{
+      left: -2000px;
+    } to{
+       left: 0;
+    }
+} 
+
 .depoimentos{
+    position: relative;
+    animation-name: animation-depoimentos;
+    animation-duration: 2s;
     background-image: url(/imagens/fundoDepoimentos.jpg);
     background-size: cover;
     background-position: center;
@@ -312,4 +396,13 @@ footer{
 
 .txtDepoimentos h3{
    text-align: center;
+}
+
+fieldset #btnAvaliacao{
+    width: 150px;
+    margin-left: 20%;
+}
+
+#btnAvaliacao:hover{
+    background-color: gold;
 }
