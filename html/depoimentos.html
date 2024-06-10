@@ -21,7 +21,9 @@
     </header>
 
     <section id="depoimentosClientes">
+
         <h1>Depoimentos dos nossos clientes</h1>
+
         <div id="caixaDepoimentos">
 
             <div class="depoimentos">
@@ -83,13 +85,27 @@
         <form id="form" method="post">
             <img src="https://media.tenor.com/YP5n6c23ji8AAAAi/enduromiramarjoaquin.gif" alt="error" srcset="">
             <fieldset id="cadastro">
-                Nome: <input type="text" name="txtNome" id="txtNome" placeholder="Seu nome completo" autocomplete="off"> <br>
+                Nome: <input type="text" placeholder="Seu nome completo" autocomplete="off"> <br>
+                Telefone: <input type="tel" name="" id="" maxlength="11" placeholder="Telefone (com DDD)" autocomplete="off"> <br>
                 Email: <input type="text" name="txtEmail" id="txtEmail" placeholder="seu@email.com.br" autocomplete="off"> <br>
-                Telefone: <input type="tel" name="txtTel" id="txtTel" placeholder="Telefone (com DDD)" maxlength="11" autocomplete="off"> <br>
-                <input id="btnCadastro" type="button" value="Enviar" onclick="contato()">
+                Qual a sua avaliação:
+                <select name="star" id="star">
+                    <option value="star01">&#9733;</option>
+                    <option value="star02">&#9733;&#9733;</option>
+                    <option value="star03">&#9733;&#9733;&#9733;</option>
+                    <option value="star04">&#9733;&#9733;&#9733;&#9733;</option>
+                    <option value="star05">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+                </select> <br>
+                <input type="button" value="Enviar" id="btnAvaliacao" onclick="avaliacao()">
             </fieldset>
         </form>
         </section>
+
+        <footer>
+            <div id="direitos">
+                &copy; 2024 Aventura em Duas Rodas - Todos os direitos reservados 
+            </div>
+        </footer>
     
     <script src="/js/interação.js"></script>
 </body>
