@@ -245,7 +245,6 @@ input::-webkit-inner-spin-button{
 
 footer{
     background-color: #d3b390;
-    /* background-color:  rgb(215, 205, 195); */
     color: #56493b;
 }
 
@@ -480,7 +479,7 @@ fieldset #btnAvaliacao{
     #div-imagem-block{
         background: url(./imagens/fotoEncontros.jpg) no-repeat;
         background-size: contain;
-        margin-left: 20%;
+        margin-left: 25%;
         width: 200px;
         height: 200px;
     }
@@ -490,6 +489,10 @@ fieldset #btnAvaliacao{
         height: 350px;
     }
     
+    #textoEncontros{
+        text-align: center;
+    }
+
     #textoEncontros h1{
         padding-top: 1%;
         text-align: center;
@@ -503,4 +506,39 @@ fieldset #btnAvaliacao{
         width: 80%;
         color: #56493b;
     }
+
+    /* Section 03 */
+
+    #diferenciais h1{
+        padding-top: 1%;
+        font: 25px brasika ;
+        color: #56493b;
+    }
+    
+    .textoDiferenciais{
+        height: 100px;
+        width: 300px;
+        font: 18px atsanee;
+    }
+
+    /* Footer */
+
+    
+    #direitos{
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    
+    #redesSociais img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #redesSociais{
+        padding-top: 10px;
+        text-align: right;
+        padding-right: 10px;
+    }
+    
 }
