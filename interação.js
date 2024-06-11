@@ -24,3 +24,8 @@ function contato(){
     }
    
 } 
+
+function menu(){
+    let menu = document.getElementById('menu-toggle')
+    let nav = document.getElementById('navbar')
+}
