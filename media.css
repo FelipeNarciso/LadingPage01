@@ -2,6 +2,8 @@
 
 @media screen and (max-width: 767px){
 
+    /* Home */
+
     /* Header */
     #cabeçalho h1{
         font-size: 25px;
@@ -134,4 +136,76 @@
         padding-right: 10px;
     }
     
+    /* Eventos */
+
+    /* Section 01 */
+    #proximosEventos h1{
+        font-size: 25px;
+    }
+
+    .eventos{
+        height: 200px;
+        width: 300px;
+        font-size: 18px;
+        padding-top: 20%;
+    }
+    #caixaTextoEventos{
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    /* Section02 */
+    #contato h1{
+        font-size: 25px;
+    }
+
+    #form{
+        font-size: 18px;
+        width: 200px;
+    }
+
+    #cadastro input{
+        height: 20px;
+        width: 180px;
+    }
+
+    #form img{
+        float: right;
+        width: 150px;
+        padding-right: 20%;
+    }
+
+    /* Depoimentos */
+    
+    /* Section 01 */
+    #depoimentosClientes h1{
+        font-size: 25px;
+    }
+
+    .depoimentos{
+        height: 250px;
+        width: 300px; 
+    }
+
+    .txtDepoimentos{
+        font-size: 15px;
+        color: #56493b;
+        padding-left: 30px;
+        width: 220px;
+        height: 150px;
+        text-align: justify;
+        padding-top: 10px;
+    } 
+
+    .txtDepoimentos h3{
+        text-align: center;
+        padding-left: 0px;
+     }
+
+    fieldset #btnAvaliacao{
+        width: 180px;
+        margin-left: 2%;
+    }
+
 }

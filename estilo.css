@@ -402,14 +402,14 @@ footer{
     margin: 2%;
 }
 
-.txtDepoimentos{
+ .txtDepoimentos{
     font: 22px brasika ;
     color: #56493b;
     padding-left: 30px;
     width: 420px;
     height: 150px;
     text-align: justify;
-}
+} 
 
 .txtDepoimentos h3{
    text-align: center;
