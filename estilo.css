@@ -31,18 +31,18 @@
     color: #fcf6db;
 }
 
- header a{
+#nav a{
     color: #fcf6db;
     text-decoration: none;
     padding: 70px;
     font: 18px atasanee;
 }
 
-nav ul{
+#nav ul{
     text-align: right;
 }
 
-nav ul li{
+#nav ul li{
     display: inline-block;
 }
 
@@ -50,11 +50,11 @@ nav ul li{
     display: block;
 }
 
-header #navbar{
+header #navbar {
     display: none;
 }
 
-a:hover{
+#nav a:hover{
     color: gold;
     text-decoration-line: underline;
     text-underline-offset: 10px; 
@@ -422,124 +422,4 @@ fieldset #btnAvaliacao{
 
 #btnAvaliacao:hover{
     background-color: gold;
-}
-
-/* Media queries */
-
-@media screen and (max-width: 767px){
-
-    /* Header */
-    #cabeçalho h1{
-        font-size: 25px;
-    }
-
-    #nav{
-        display: none;
-    }
-
-    #menu-toggle{
-        display: block;
-    }
-
-    #navbar{
-        display: block;
-        background-color: #56493b;
-        padding-right: 10px;
-        padding-top: 10px;
-    }
-        
-    #navbar a{
-        padding: 0px;
-        font-size: 12px;
-        text-decoration: none;
-        
-    }
-
-    /* Section 01 */
-    #textoCima h3{
-        font: 16px brasika;
-    }
-
-    .textoBloco{
-        width: 200px;
-        height: 200px;
-    }
-    
-    .textoBloco h5{
-        font: 15px Atsanee;
-        padding-top: 70px;
-    }
-
-    /* Section 02 */
-
-    #encontros #img{
-        display: none; 
-    }
-
-    #div-imagem-block{
-        background: url(./imagens/fotoEncontros.jpg) no-repeat;
-        background-size: contain;
-        margin-left: 25%;
-        width: 200px;
-        height: 200px;
-    }
-
-    #encontros{
-        background-color: rgb(215, 205, 195);
-        height: 350px;
-    }
-    
-    #textoEncontros{
-        text-align: center;
-    }
-
-    #textoEncontros h1{
-        padding-top: 1%;
-        text-align: center;
-        font: 25px brasika ;
-        color: #56493b;
-    }
-    
-    #textoEncontros h5{
-        padding-top: 1%;
-        font: 18px atsanee;
-        width: 80%;
-        color: #56493b;
-    }
-
-    /* Section 03 */
-
-    #diferenciais h1{
-        padding-top: 1%;
-        font: 25px brasika ;
-        color: #56493b;
-    }
-    
-    .textoDiferenciais{
-        padding-top: 30%;
-        height: 200px;
-        width: 300px;
-        font: 18px atsanee;
-    }
-
-    /* Footer */
-
-    
-    #direitos{
-        text-align: center;
-        font-size: 12px;
-        padding-bottom: 5px;
-    }
-    
-    #redesSociais img{
-        width: 30px;
-        height: 30px;
-    }
-    
-    #redesSociais{
-        padding-top: 10px;
-        text-align: right;
-        padding-right: 10px;
-    }
-    
 }

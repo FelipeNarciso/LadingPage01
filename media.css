@@ -1,0 +1,137 @@
+/* Media queries */
+
+@media screen and (max-width: 767px){
+
+    /* Header */
+    #cabeçalho h1{
+        font-size: 25px;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    #menu-toggle{
+        display: block;
+    }
+
+    #navbar{
+        display: none;
+        background-color: #fcf6db;
+        padding-top: 10px;
+        width: 100px;
+        height: 300px;
+        position: absolute;
+        z-index: 1000;
+        left: 0px;
+        top: 0px;
+    }
+
+    #navbar img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    #navbar a{
+        padding: 0px;
+        font-size: 12px;
+        color: #56493b;
+        text-decoration: none;
+    }
+
+    #navbar ul{
+        list-style-type: none;
+    }
+
+    #navbar ul li{
+        padding: 20px;
+    }
+
+    /* Section 01 */
+    #textoCima h3{
+        font: 16px brasika;
+    }
+
+    .textoBloco{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .textoBloco h5{
+        font: 15px Atsanee;
+        padding-top: 70px;
+    }
+
+    /* Section 02 */
+
+    #encontros #img{
+        display: none; 
+    }
+
+    #div-imagem-block{
+        background: url(./imagens/fotoEncontros.jpg) no-repeat;
+        background-size: contain;
+        margin-left: 25%;
+        width: 200px;
+        height: 200px;
+    }
+
+    #encontros{
+        background-color: rgb(215, 205, 195);
+        height: 350px;
+    }
+    
+    #textoEncontros{
+        text-align: center;
+    }
+
+    #textoEncontros h1{
+        padding-top: 1%;
+        text-align: center;
+        font: 25px brasika ;
+        color: #56493b;
+    }
+    
+    #textoEncontros h5{
+        padding-top: 1%;
+        font: 18px atsanee;
+        width: 80%;
+        color: #56493b;
+    }
+
+    /* Section 03 */
+
+    #diferenciais h1{
+        padding-top: 1%;
+        font: 25px brasika ;
+        color: #56493b;
+    }
+    
+    .textoDiferenciais{
+        padding-top: 30%;
+        height: 200px;
+        width: 300px;
+        font: 18px atsanee;
+    }
+
+    /* Footer */
+
+    
+    #direitos{
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    
+    #redesSociais img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    #redesSociais{
+        padding-top: 10px;
+        text-align: right;
+        padding-right: 10px;
+    }
+    
+}
