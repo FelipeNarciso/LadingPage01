@@ -184,7 +184,7 @@
     }
 
     .depoimentos{
-        height: 250px;
+        height: 280px;
         width: 300px; 
     }
 
@@ -194,8 +194,8 @@
         padding-left: 30px;
         width: 220px;
         height: 150px;
-        text-align: justify;
-        padding-top: 10px;
+        text-align: start;
+        padding-top: 20px;
     } 
 
     .txtDepoimentos h3{
