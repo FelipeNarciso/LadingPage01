@@ -56,10 +56,16 @@ function avaliacao(){
 function menu(){
     let nav = document.getElementById('navbar')
 
-    if(nav.style.display === 'block'){
-        nav.style.display = 'none'
-    }else{
-        nav.style.display = 'block'
+    // if(nav.style.display === 'block'){
+    //     nav.style.display = 'none'
+    // }else{
+    //     nav.style.display = 'block'
+    // }
+
+    if(nav.style.left === '-1000px'){
+        nav.style.left = '0px'
+     }else{
+        nav.style.left = '-1000px'
     }
    
 }
