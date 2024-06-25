@@ -6,7 +6,7 @@
 
     /* Header */
     #cabeçalho h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #nav{
@@ -25,7 +25,7 @@
         height: 300px;
         position: absolute;
         z-index: 1000;
-        left: -1000px;
+        left: -100px;
         top: 0px;
         transition: left 0.5s ease 0s;
     }
@@ -37,7 +37,7 @@
     
     #navbar a{
         padding: 0px;
-        font-size: 12px;
+        font-size: 14px;
         color: #56493b;
         text-decoration: none;
     }
@@ -51,18 +51,26 @@
     }
 
     /* Section 01 */
+    #textoCima{
+        width: 90%;
+    }
+
     #textoCima h3{
-        font: 16px brasika;
+        font: 20px brasika;
     }
 
     .textoBloco{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
+        border-radius: 18px 18px 18px;
     }
     
     .textoBloco h5{
-        font: 15px Atsanee;
-        padding-top: 70px;
+        font: 20px Atsanee;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
     }
 
     /* Section 02 */
@@ -74,14 +82,14 @@
     #div-imagem-block{
         background: url(./imagens/fotoEncontros.jpg) no-repeat;
         background-size: contain;
-        margin-left: 25%;
-        width: 200px;
-        height: 200px;
+        margin-left: 12%;
+        width: 300px;
+        height: 300px;
     }
 
     #encontros{
         background-color: rgb(215, 205, 195);
-        height: 350px;
+        height: 460px;
     }
     
     #textoEncontros{
@@ -91,22 +99,23 @@
     #textoEncontros h1{
         padding-top: 1%;
         text-align: center;
-        font: 25px brasika ;
+        font: 30px brasika ;
         color: #56493b;
     }
     
     #textoEncontros h5{
         padding-top: 1%;
-        font: 18px atsanee;
+        font: 20px atsanee;
         width: 80%;
         color: #56493b;
     }
+
 
     /* Section 03 */
 
     #diferenciais h1{
         padding-top: 1%;
-        font: 25px brasika ;
+        font: 30px brasika ;
         color: #56493b;
     }
     
@@ -118,11 +127,9 @@
     }
 
     /* Footer */
-
-    
     #direitos{
         text-align: center;
-        font-size: 12px;
+        font-size: 15px;
         padding-bottom: 5px;
     }
     
@@ -136,18 +143,20 @@
         text-align: right;
         padding-right: 10px;
     }
-    
+
     /* Eventos */
 
     /* Section 01 */
     #proximosEventos h1{
-        font-size: 25px;
+        font-size: 30px;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .eventos{
         height: 200px;
         width: 300px;
-        font-size: 18px;
+        font-size: 20px;
         padding-top: 20%;
     }
     #caixaTextoEventos{
@@ -158,7 +167,7 @@
 
     /* Section02 */
     #contato h1{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #form{
@@ -181,7 +190,9 @@
     
     /* Section 01 */
     #depoimentosClientes h1{
-        font-size: 25px;
+        font-size: 28px;
+        padding-top: 2%;
+        padding-bottom: 2%;
     }
 
     .depoimentos{
