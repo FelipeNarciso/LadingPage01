@@ -37,7 +37,7 @@
     
     #navbar a{
         padding: 0px;
-        font-size: 14px;
+        font-size: 12px;
         color: #56493b;
         text-decoration: none;
     }
@@ -129,7 +129,7 @@
     /* Footer */
     #direitos{
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
         padding-bottom: 5px;
     }
     
@@ -207,7 +207,7 @@
         width: 220px;
         height: 150px;
         text-align: start;
-        padding-top: 20px;
+        padding-top: 12px;
     } 
 
     .txtDepoimentos h3{
