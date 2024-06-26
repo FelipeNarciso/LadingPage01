@@ -13,22 +13,23 @@
     cursor: pointer;
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 2px;
     display: none;
 }
 
 #cabeçalho{
+    display: flex;
+    justify-content: space-between;
     background-color: #56493b;
+    align-items: center;
     color: #d3b390;
-    padding-top: 20px; 
-    height: auto;
-    padding-bottom: 20px;
-    padding-left: 30px;
+    padding: 5px;
 }
 
 #cabeçalho h1{
     font: 50px brasika;
     color: #fcf6db;
+    padding-left: 20px;
 }
 
 #nav a{
@@ -36,18 +37,6 @@
     text-decoration: none;
     padding: 70px;
     font: 18px atasanee;
-}
-
-#nav ul{
-    text-align: right;
-}
-
-#nav ul li{
-    display: inline-block;
-}
-
-#nav{
-    display: block;
 }
 
 #navbar {
@@ -171,15 +160,15 @@
 }
 
 #caixaTextoDiferenciais{
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .textoDiferenciais{
     box-shadow: 0px 0px 10px black;
-    display: inline-block;
     background-color: white;
+    padding: 20px;
     height: 300px;
     width: 500px;
     margin-top: 5%;

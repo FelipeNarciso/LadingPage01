@@ -36,20 +36,12 @@
     }
     
     #navbar a{
-        padding: 0px;
+        display: flex;
+        padding: 20px;
         font-size: 12px;
         color: #56493b;
         text-decoration: none;
     }
-
-    #navbar ul{
-        list-style-type: none;
-    }
-
-    #navbar ul li{
-        padding: 20px;
-    }
-
     /* Section 01 */
     #textoCima{
         width: 90%;
@@ -89,7 +81,7 @@
 
     #encontros{
         background-color: rgb(215, 205, 195);
-        height: 460px;
+        height: 500px;
     }
     
     #textoEncontros{
@@ -120,7 +112,8 @@
     }
     
     .textoDiferenciais{
-        padding-top: 30%;
+        padding: 10px;
+        padding-top: 50px;
         height: 200px;
         width: 300px;
         font: 18px atsanee;
